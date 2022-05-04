@@ -63,7 +63,7 @@ void process_data(char* input_file, char* output_file)
     f_out.close();
 }
         
-int main(int argc, char *argv[])
+int main(int argc, char argv[])
 {
     process_data(argv[1], argv[2]);
 }
